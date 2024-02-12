@@ -150,5 +150,5 @@ const { title, author, pages, publicationDate, genres, hasMovieAdaptation } =
   book;
 console.log(title, author, genres);
 
-const [priamryGenres, secondaryGenres] = genres;
-console.log(priamryGenres, secondaryGenres);
+const [priamryGenres, secondaryGenres, ...otherGenres] = genres;
+console.log(priamryGenres, secondaryGenres, otherGenres);
